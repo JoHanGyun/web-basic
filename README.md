@@ -60,3 +60,20 @@ a태그는 웹페이지를 불러올수있고 파일도 불러올수있다.
 ```
 
 button태그는 버튼을 만든다. 안에다가 a태그를 넣을수도 있다.
+
+'''html
+
+<table border="1">
+      <tr>
+        <th rowspan="2">1</th>
+        <th>2</th>
+        <th>3</th>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>5</td>
+        <td colspan="2">6</td>
+      </tr>
+    </table>
+
+table태그는 표를 만들어준다
